@@ -1,0 +1,187 @@
+@charset "UTF-8";
+body {
+  background-color: #CFCDB5;
+  background-size: 100%;
+  font-family: Verdana, Arial, sans-serif;
+  color: #3D3C32; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%; }
+
+footer, header, section {
+  display: block; }
+
+progress {
+  width: 40%; }
+
+header h1 {
+  color: #effa16;
+  margin: 0px auto;
+  padding: 20px;
+  font-family: Milkshake, Arial, Verdana, sans-serif;
+  font-size: 40px; }
+
+/* Importation d'un font*/
+@font-face {
+  font-family: 'Milkshake';
+  src: url("../font/Milkshake.eot") format("eot"), url("../font/Milkshake.ttf") format("truetype"); }
+#top {
+  height: 6em;
+  text-align: center; }
+
+#main {
+  padding: 20px 0;
+  min-height: 400px; }
+
+#container {
+  margin: 2px auto;
+  width: 600px;
+  text-align: center; }
+
+#foot {
+  height: 2em;
+  text-align: center;
+  font-family: Milkshake, Arial, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 30px; }
+
+#gameCard, #progressionBar {
+  display: none; }
+
+#bestTimeList {
+  display: flex;
+  flex-direction: column; }
+
+#container {
+  width: 800px;
+  text-align: center;
+  float: center; }
+
+#gameCard {
+  background: blue; }
+
+#gameCard div {
+  float: left;
+  width: 101px;
+  height: 101px;
+  margin: 1px;
+  padding: 1px;
+  border: 2px solid #effa16;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  background: #B1B1B1; }
+
+#gameCard img {
+  display: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px; }
+
+.contenu {
+  margin: auto;
+  width: 1200px; }
+
+.btn {
+  border-radius: 10px 10px 10px 10px;
+  font-size: 24px;
+  color: #3D3C32;
+  width: 100px;
+  height: 40%;
+  background-color: #E5E4DF;
+  font-family: Milkshake, Arial, Verdana, sans-serif; }
+
+/* découpe le fichier png en image de 100*100px */
+#img0 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px 0px; }
+
+#img1 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -100px; }
+
+#img2 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -200px; }
+
+#img3 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -300px; }
+
+#img4 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -400px; }
+
+#img5 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -500px; }
+
+#img6 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -600px; }
+
+#img7 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -700px; }
+
+#img8 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -800px; }
+
+#img9 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -900px; }
+
+#img10 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1000px; }
+
+#img11 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1100px; }
+
+#img12 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1200px; }
+
+#img13 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1300px; }
+
+#img14 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1400px; }
+
+#img15 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1500px; }
+
+#img16 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1600px; }
+
+#img17 {
+  width: 100px;
+  height: 100px;
+  background: url("../img/cards.png") 0px -1700px; }
